@@ -1,27 +1,28 @@
 import React from 'react'
 
-export default function Header() {
+const Header = () => {
   return (
     <div>
-    <header>
+      <header>
         <div>
-            <span className='logo'>House Staff</span>
+          <span className='logo'>House Staff</span>
         </div>
         <nav>
-       
-                <ul>
-                    <li>Про нас</li>
-                    <li>Контакти</li>
-                    <li>Кабінет</li>
-                </ul>
+
+          <ul>
+            <li>Про нас</li>
+            <li>Контакти</li>
+            <li>Кабінет</li>
+          </ul>
         </nav>
-        
-    </header>
-    <div className="presentation">
+
+      </header>
+      {/* <div className="presentation">
         <h1>Кращі товари для дому</h1>
         <p>за низькими цінами</p>
         <button>Переглянути</button>
-    </div>
+      </div> */}
     </div>
   )
 }
+export default Header;
