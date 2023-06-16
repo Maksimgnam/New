@@ -1,0 +1,16 @@
+@media (max-width: 700px) {
+    .Header {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    nav {
+        display: none;
+    }
+
+    .logo {
+        text-align: center;
+    }
+
+}
